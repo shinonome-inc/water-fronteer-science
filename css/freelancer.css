@@ -571,6 +571,16 @@ footer .footer-below {
   line-height: 44px;
 }
 
+@media (max-width: 767px) {
+  #president .media {
+    display: block;
+  }
+  #president .media img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 24px;
+  }
+}
 .thumbnail {
   padding: 0px;
   margin-top: 24px;
