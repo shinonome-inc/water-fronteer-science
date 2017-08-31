@@ -538,3 +538,23 @@ footer .footer-below {
   position: absolute;
   top: 0px;
 }
+
+#president {
+  background-color: #f9f9f9;
+}
+
+#president hr.star-primary:after {
+  color: #888;
+  background-color: #f9f9f9;
+}
+
+
+#president .media {
+  display: table;
+}
+
+#president .media img {
+  display: table-cell;
+  width: 200px;
+  margin: 0 40px;
+}
