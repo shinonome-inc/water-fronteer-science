@@ -136,6 +136,9 @@
                 <li class="page-scroll">
                     <a href="#data">資料</a>
                 </li>
+                <li class="page-scroll">
+                    <a href="#event">イベント</a>
+                </li>
             </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -2917,7 +2920,7 @@
           <div class="row">
               <div class="col-lg-4">
                 <div class="thumbnail">
-                  <img src="img/data/W-FSTimage.jpg" alt="W-FST事業計画書">
+                  <div class="ripple" style="background-image: url('img/data/W-FSTimage.jpg')"></div>
                   <div class="caption">
                     <h2>W-FST 事業計画書</h2>
                     <p>H28 事業計画書</p>
@@ -2927,7 +2930,7 @@
               </div>
               <div class="col-lg-4">
                 <div class="thumbnail">
-                  <img src="img/data/branding_h28.png" alt="H28年度進捗報告書">
+                  <div class="ripple" style="background-image: url('img/data/branding_h28.png')"></div>
                   <div class="caption">
                     <h2>H28年度進捗報告書</h2>
                     <p>私立大学研究ブランディング事業 H28年度の事業報告</p>
@@ -2938,7 +2941,27 @@
           </div>
       </div>
     </div>
-</section>
+  </section>
+
+  <!-- Data Section -->
+  <section id="event">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <h2>イベント</h2>
+                  <hr class="star-primary">
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg-4">
+                <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=87847" target="_blank" class="morph">
+                  <img src="img/event/2.png">
+                </a>
+              </div>
+          </div>
+      </div>
+    </div>
+  </section>
 
 <!-- Footer -->
 <footer class="text-center">
@@ -3003,20 +3026,41 @@
 <script src="js/sticky.min.js"></script>
 <script src="js/particles.min.js"></script>
 <script src="js/particles.setting.js"></script>
-
+<script src="js/jquery.morphing.js"></script>
+<script src="js/jquery.ripples.js"></script>
 <script>/** JS：Area */
 
 var sticky = new Sticky('[data-sticky]', {});
 
 $(function(){
-    let $hoge = $('#vision');
-    $hoge.raindrops({
+    let $ripple = $('.ripple');
+    $ripple.ripples({
+        resolution: 400,
+        dropRadius: 25,
+        perturbance: 0.05
+    });
+});
+
+$(function(){
+    let $raindrop = $('#vision');
+    $raindrop.raindrops({
         color:'#008bd0',
         waveHeight: 100,
         canvasHeight:700,
         rippleSpeed: 0.01,
         rippleSpeed: 0.05,
         density: 0.04
+    });
+});
+
+$(function(){
+    let $morph = $('.morph');
+    $morph.morphing({
+        numVert: 10,
+        spring: 0.005,
+        friction: 0.9,
+        radius: 160,
+        fps: 90
     });
 });
 
