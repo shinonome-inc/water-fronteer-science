@@ -410,6 +410,7 @@ footer {
 }
 
 footer h3 {
+    color: #fff;
     margin-bottom: 30px;
 }
 
@@ -420,6 +421,11 @@ footer .footer-above {
 
 footer .footer-col {
     margin-bottom: 50px;
+}
+
+footer .footer-col ul {
+  padding: 0;
+  list-style: none;
 }
 
 footer .footer-below {
@@ -563,4 +569,36 @@ footer .footer-below {
 #president .media p {
   letter-spacing: 1.4px;
   line-height: 44px;
+}
+
+.thumbnail {
+  padding: 0px;
+  margin-top: 24px;
+}
+
+.thumbnail img {
+  height: 280px;
+  width: auto;
+  margin: 20px auto;
+}
+
+.thumbnail .caption {
+  background-color: #fafafa;
+  padding: 16px 16px;
+}
+
+.thumbnail .caption:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.thumbnail .caption h2 {
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.thumbnail .caption p {
+  font-size: 16px;
+  margin-bottom: 12px;
 }
