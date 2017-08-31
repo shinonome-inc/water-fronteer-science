@@ -31,17 +31,18 @@
   height: 140px;
   padding-left: 130px;
   padding-top: 8px;
+  position: relative;
 }
 
 .user_list .info .belong {
   position: absolute;
   right: 8px;
-  top: 8px;
+  bottom: 8px;
 }
 
 .user_list .info .belong svg {
   width: auto;
-  height: 24px;
+  height: 32px;
 }
 
 .user_list .info .remark {
@@ -75,7 +76,7 @@
 }
 
 .user_list .content p {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .tags .tag {
