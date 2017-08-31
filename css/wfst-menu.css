@@ -1,0 +1,164 @@
+#nav-tabContent {
+  background-color: white;
+  border: solid 1px #ddd;
+  border-radius: 4px;
+  padding: 48px;
+}
+#wfst-group {
+  margin-top: 48px;
+  padding: 0;
+  position: relative;
+}
+
+#wfst-group:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+#wfst-group .menu-wrap {
+  width: 340px;
+  display: inline-block;
+  position:absolute;
+  left: 0px;
+  top: 0px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+#wfst-group .content-wrap {
+  padding: 0;
+  width: calc(100% - 340px);
+  display: inline-block;
+  padding-left: 40px;
+  margin-left: 340px;
+}
+
+#wfst-menu {
+  margin-bottom: 8px;
+}
+
+#wfst-menu .content {
+  width: 320px;
+  height: 320px;
+  overflow: hidden;
+  position: relative;
+}
+
+#wfst-menu .content > * {
+  display: inline-block;
+  position: absolute;
+}
+
+#wfst-menu .content svg {
+  width: 120px;
+  height: 120px;
+}
+
+
+#wfst-menu .g0 {
+  left: calc(50% - 60px);
+  top: calc(50% - 60px);
+}
+
+#wfst-menu .g1 {
+  top: calc(50% - 168px);
+  left: calc(50% - 60px);
+}
+
+#wfst-menu .g2 {
+  top: calc(50% - 113px);
+  left: calc(50% + 36px);
+}
+
+#wfst-menu .g3 {
+  top: calc(50% - 4px);
+  left: calc(50% + 35px);
+}
+
+#wfst-menu .g4 {
+  top: calc(50% + 48px);
+  left: calc(50% - 60px);
+}
+
+#wfst-menu .g5 {
+  top: calc(50% + -4px);
+  left: calc(50% - 155px);
+}
+
+#wfst-menu .g6 {
+  top: calc(50% - 114px);
+  left: calc(50% - 155px);
+}
+
+#wfst-group h2 {
+  font-size: 40px;
+  border-bottom: double 7px #555;
+}
+
+#wfst-group .info {
+  display: inline-block;
+  clear: both;
+  margin: 32px 0px;
+}
+
+#wfst-group .info .sub {
+  padding-top: 7px;
+  color: #666;
+  margin-left: 3px;
+  font-size: 24px;
+}
+
+#wfst-group .info h1 {
+  font-size: 48px;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+#wfst-group .info sub {
+  margin-left: 3px;
+  font-size: 18px;
+}
+
+#wfst-group .info img {
+  float: left;
+  border-radius: 4px;
+  width: 200px;
+  margin-right: 24px;
+}
+
+#wfst-group .info-text {
+  float: left;
+}
+
+#wfst-group .text p {
+  letter-spacing: 1.1px;
+  color: #333;
+  line-height: 30px;
+  font-size: 16px;
+}
+
+#wfst-group #g1 h1 {
+  color: #e8ae00;
+}
+
+#wfst-group #g2 h1 {
+  color: #df7d91;
+}
+
+#wfst-group #g3 h1 {
+  color: #428ac3;
+}
+
+#wfst-group #g4 h1 {
+  color: #b36ba8;
+}
+
+#wfst-group #g5 h1 {
+  color: #b95b57;
+}
+
+#wfst-group #g6 h1 {
+  color: #569d64;
+}
