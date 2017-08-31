@@ -58,6 +58,72 @@
   color: white;
 }
 
+.user_list .info .remark.sub_center_leader {
+  background-color: #405795;
+  color: white;
+}
+
+.user_list .info .remark.group_leader_g1 {
+  background-color: #e1b22c;
+  color: white;
+}
+
+.user_list .info .remark.sub_group_leader_g1 {
+  background-color: #e1b22c;
+  color: white;
+}
+
+.user_list .info .remark.group_leader_g2 {
+  background-color: #d38191;
+  color: white;
+}
+
+.user_list .info .remark.sub_group_leader_g2 {
+  background-color: #d38191;
+  color: white;
+}
+
+.user_list .info .remark.group_leader_g3 {
+  background-color: #5185be;
+  color: white;
+}
+
+.user_list .info .remark.sub_group_leader_g3 {
+  background-color: #5185be;
+  color: white;
+}
+
+.user_list .info .remark.group_leader_g4 {
+  background-color: #aa6da6;
+  color: white;
+}
+
+.user_list .info .remark.sub_group_leader_g4 {
+  background-color: #aa6da6;
+  color: white;
+}
+
+.user_list .info .remark.group_leader_g5 {
+  background-color: #ae6058;
+  color: white;
+}
+
+.user_list .info .remark.sub_group_leader_g5 {
+  background-color: #ae6058;
+  color: white;
+}
+
+.user_list .info .remark.group_leader_g6 {
+  background-color: #5f9261;
+  color: white;
+}
+
+.user_list .info .remark.sub_center_leader_g6 {
+  background-color: #5f9261;
+  color: white;
+}
+
+
 .user_list .info h1 {
   font-size: 24px;
   margin-top: 12px;
