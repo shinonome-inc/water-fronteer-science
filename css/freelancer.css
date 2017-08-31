@@ -551,10 +551,16 @@ footer .footer-below {
 
 #president .media {
   display: table;
+  margin-top: 32px;
 }
 
 #president .media img {
   display: table-cell;
   width: 200px;
   margin: 0 40px;
+}
+
+#president .media p {
+  letter-spacing: 1.4px;
+  line-height: 44px;
 }
