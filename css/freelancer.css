@@ -576,10 +576,11 @@ footer .footer-below {
   margin-top: 24px;
 }
 
-.thumbnail img {
+.thumbnail .ripple {
   height: 280px;
-  width: auto;
-  margin: 20px auto;
+  width: 100%;
+  background-size: cover;
+  background-position: top;
 }
 
 .thumbnail .caption {
@@ -601,4 +602,13 @@ footer .footer-below {
 .thumbnail .caption p {
   font-size: 16px;
   margin-bottom: 12px;
+}
+
+#event .morph {
+  display: block;
+  margin-top: 16px;
+}
+.morph canvas {
+  margin: 0 auto;
+  display: block;
 }
