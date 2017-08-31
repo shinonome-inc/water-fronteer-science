@@ -35,6 +35,22 @@
   margin-left: 340px;
 }
 
+@media (max-width: 767px) {
+  #wfst-group .menu-wrap, #wfst-group .content-wrap {
+    width: 100%;
+    margin: 0px;
+    display: block !important;
+    position: relative !important;
+    top: 0px !important;
+    margin: 0 auto;
+    left: auto !important;
+    padding: 8px 0;
+  }
+  #wfst-menu .content {
+    margin: 0 auto;
+  }
+}
+
 #wfst-menu {
   margin-bottom: 8px;
 }
